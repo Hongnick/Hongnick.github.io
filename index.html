@@ -35,7 +35,7 @@ footer,header,hgroup,menu,nav,section {
    display: block;
 }
 
-/*  1. Basic  ------------------------------------------------------- */
+/* Basic  ------------------------------------------------------- */
 
 *,
 *:before,
@@ -62,8 +62,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-/* default
---------------------------------------------------------------- */
+/* default--------------------------------------------------------------- */
 .row {
    width: 96%;
    max-width: 1020px;
@@ -87,12 +86,15 @@ header {
 }
 
 /* vertically center banner section */
+
 header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
    height: 100%;
 }
+
+
 header .banner {
    display: inline-block;
    vertical-align: middle;
@@ -112,6 +114,7 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
+
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
@@ -119,10 +122,14 @@ header .banner-text h3 {
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
+
+
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
 }
+
+
 header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
@@ -132,6 +139,8 @@ header .banner-text hr {
 
 /* primary navigation
 --------------------------------------------------------------------- */
+
+
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
 	 padding: 0;
@@ -139,7 +148,10 @@ header .banner-text hr {
 	 outline: none;
 }
 
+
 /* nav-wrap */
+
+
 #nav-wrap {
    background: #162b48;
    font: 18px 'opensans-bold', sans-serif;
@@ -152,9 +164,12 @@ header .banner-text hr {
    left: 0;
    top: 0;
 }
+
+
 .opaque { background-color: #333; }
 
 /* hide toggle button */
+
 #nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
@@ -164,6 +179,7 @@ ul#nav {
    /* center align the menu */
    text-align: center;
 }
+
 ul#nav li {
    position: relative;
    list-style: none;
@@ -219,6 +235,11 @@ li a {
  li a:hover {
     background-color: #111;
 }
+
+
+
+/*search------------------------------------------*/
+
 
 .box{
    margin: 100px auto;
@@ -301,14 +322,14 @@ li a {
 <header>
 
 <nav id="nav-wrap">
-
    <ul id="nav" class="nav">
-      <li><a href="/view/introduction.html" target="iframe_a">自我介紹</a></li>
-      <li><a href="/view/work.html" target="iframe_a">工作經歷</a></li>
-      <li><a href="/view/works.html" target="iframe_a">設計作品</a></li>
+      <li><a href="/view/introduction.html" target="iframe_a">About</a></li>
+      <li><a href="/view/work.html" target="iframe_a">Work</a></li>
+      <li><a href="/view/works.html" target="iframe_a">Project</a></li>
     </ul>
-
 </nav>
+
+
 <div class="row banner">
   <div class="banner-text">
 <h1  style= "color:beige; font-family:serif; font-weight:bold;  font-size:70px; font-style:italic;">Nick Hung introduction </h1>
@@ -321,33 +342,26 @@ li a {
        <span class="icon"><i class="fa fa-search"></i></span>
        <input type="search" id="search" placeholder="Search..." />
        </div>
-     </div>-->
+ </div>-->
 
 
-
-  </header>
+ </header>
 
 
   
 <div style="height:1450px;background-color:lightgray;">
-
 <iframe height="1450px" width="100%" src="/view/introduction.html" name="iframe_a">
-
-
-
 </iframe>
 </div>
-<div>
+
+
+
 <footer  style="height:80px; background-color:#162b48;line-height:500%; padding-right:30%; text-align:-webkit-right; position:sticky;" >
 <h3 style="font-family:serif; font-size:20px; font-style:italic;">Welcome-版權所有</style></h3>
 
-
 </footer>
-</div>
-</div>
+
  
-
-
 
 </body>
 </html>
