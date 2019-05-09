@@ -66,6 +66,15 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+wrapper {
+
+min-height:100%;
+position:relative;
+
+}
+
+
+
 /* default--------------------------------------------------------------- */
 .row {
    width: 96%;
@@ -322,7 +331,7 @@ li a {
 </style>
 </head>
 <body>
-
+<div id="wrapper">
 <header>
 
 <nav id="nav-wrap">
@@ -360,13 +369,13 @@ li a {
 
 
 
-<footer  style="height:80px; position:relative; margin-top:-100px;   background-color:#162b48;line-height:500%; padding-right:30%; text-align:-webkit-right; position:sticky;" >
+<footer  style="height:80px; box-sizing:border-box;   position:absoulte; bottom:0;   background-color:#162b48;line-height:500%; padding-right:30%; text-align:-webkit-right;" >
 <h3 style="font-family:serif; font-size:20px; font-style:italic;">Welcome-版權所有</style></h3>
 
 </footer>
 
  
-
+</div>
 </body>
 </html>
 
