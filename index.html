@@ -47,13 +47,12 @@ footer,header,hgroup,menu,nav,section {
 
 html {
    font-size: 62.5%;
-   min-height:100%;
    height:100%;
    -webkit-font-smoothing: antialiased;
 }
 
 body {
-   min-height:100%;
+   
    display:flex;
    flex-direction:column;
    height:100%;
@@ -71,7 +70,8 @@ body {
 wrapper {
 
 min-height:100%;
-position:relative;
+margin-bottom:-80px;
+ 
 
 }
 
@@ -331,10 +331,17 @@ li a {
  color:#4f5b66;
 }
 
+
+.content{
+
+ flex:1;
+}
+
+
 </style>
 </head>
 <body>
-<div id="wrapper">
+<div class="content">
 <header>
 
 <nav id="nav-wrap">
